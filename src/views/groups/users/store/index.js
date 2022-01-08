@@ -2,15 +2,15 @@
 import { createSlice, createAsyncThunk } from '@reduxjs/toolkit'
 
 // ** Axios Imports
-import axios from 'axios'
+import MyRequest from '@src/utility/MyRequest'
 
 export const getData = createAsyncThunk('groupUsers/getData', async params => {
-  const response = await axios.get('groups/user/users', params)
+  const response = await MyRequest('get', 'groups/user/users', params)
   return {
     params,
-    data: response.data.users,
-    allData: response.data.allData,
-    totalPages: response.data.total
+    data: response.users,
+    allData: response.allData,
+    totalPages: response.total
   }
 })
 

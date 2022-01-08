@@ -1,9 +1,8 @@
 // ** Third Party Components
 import Chart from 'react-apexcharts'
-import { ArrowDown } from 'react-feather'
 // ** import temp data
 // ** Reactstrap Imports
-import { Card, CardHeader, ButtonGroup, CardBody, Button, Badge } from 'reactstrap'
+import { Card, CardBody } from 'reactstrap'
 
 const DailyTest = ({ pdata, direction }) => {
   // ** Chart Options

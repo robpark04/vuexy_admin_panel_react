@@ -1,5 +1,5 @@
 // ** Reactstrap Imports
-import {Row, Button, Col, Card, CardText, CardHeader, CardTitle, CardBody, Progress } from 'reactstrap'
+import {Row, Button, Col, Card, CardBody } from 'reactstrap'
 const DetailedReport = () => {
   return (
     <Card

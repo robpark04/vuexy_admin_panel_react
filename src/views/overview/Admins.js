@@ -1,5 +1,13 @@
 // ** Reactstrap Imports
-import {Form, Input, Button, InputGroup, InputGroupText, Card, Row, Col, CardText, CardHeader, CardTitle, CardBody, Progress } from 'reactstrap'
+import {Form,
+   Input,
+   Button, 
+   InputGroup, 
+   InputGroupText, 
+   Card, 
+   Row, Col, 
+   CardHeader, CardTitle, CardBody 
+} from 'reactstrap'
 // ** Custom Components
 import { Search} from 'react-feather'
 import Avatar from '@components/avatar'

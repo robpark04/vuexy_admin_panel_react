@@ -1,15 +1,12 @@
-// ** Third Party Components
-import Chart from 'react-apexcharts'
 // ** Custom Components
 import Avatar from '@components/avatar'
 import { Link } from 'react-router-dom'
 import DataTable from 'react-data-table-component'
 
 // ** Custom Components
-import * as Icon from 'react-feather'
-import { ChevronDown, FileText, ArrowRight, Check } from 'react-feather'
+import { ChevronDown, ArrowRight } from 'react-feather'
 // ** Reactstrap Imports
-import { Badge, Card, CardHeader, CardFooter, CardTitle, CardBody, Input, Button, Label, CardSubtitle } from 'reactstrap'
+import { Badge, Card, CardHeader, CardTitle, CardBody, Button } from 'reactstrap'
 import '@styles/react/libs/tables/react-dataTable-component.scss'
 
 const projectsArr = [

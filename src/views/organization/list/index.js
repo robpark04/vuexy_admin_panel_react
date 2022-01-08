@@ -229,7 +229,7 @@ const OrganizationList = () => {
   // ** Store vars
   const dispatch = useDispatch()
   const store = useSelector(state => state.organizationList)
-
+console.log(store)
   // ** States
   const [value, setValue] = useState('')
   const [sort, setSort] = useState('desc')

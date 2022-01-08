@@ -2,7 +2,7 @@
 import Chart from 'react-apexcharts'
 
 // ** Reactstrap Imports
-import { Card, CardHeader, CardTitle, CardBody, Input, Button, Label, CardSubtitle } from 'reactstrap'
+import { Card, CardHeader, CardTitle, CardBody, Input} from 'reactstrap'
 import { Package } from 'react-feather'
 const CaseReport = () => {
   const donutColors = {

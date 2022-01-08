@@ -11,6 +11,8 @@ import groupUser from '@src/views/groups/users/store'
 import groupList from '@src/views/groups/list/store'
 import organizationList from '@src/views/organization/list/store'
 import organizationUsers from '@src/views/organization/user/store'
+import overview from '@src/views/overview/store'
+import groupdetails from '@src/views/groups/detail/store'
 import calendar from '@src/views/apps/calendar/store'
 import ecommerce from '@src/views/apps/ecommerce/store'
 import dataTables from '@src/views/tables/data-tables/store'
@@ -32,7 +34,9 @@ const rootReducer = {
   groupUser,
   groupList,
   organizationList,
-  organizationUsers
+  organizationUsers,
+  overview,
+  groupdetails
 }
 
 export default rootReducer
